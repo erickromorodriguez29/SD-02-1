@@ -1,5 +1,12 @@
 // Refer to Task 2 in your Instructions to complete this task
+const prompt = require("prompt-sync")();
 
-for (let i = 0; i < 1; i++) {
-    console.log("This is Task Two!");
+const name = prompt("erick");
+for (let i = 0; i < 106; i++) {
+    console.log("This is Task One!");
+  };
+for (let i = 0; i < 106; i++) {
+    if (i % 3 === 0) {
+        console.log("fizz");
+    }
   };
